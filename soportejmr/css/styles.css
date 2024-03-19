@@ -11424,6 +11424,30 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding-right: 10rem;
 }
 }
+<<<<<<< HEAD
+/*CSS de privacidad 2*/
+@media (min-width: 375px){
+  .divPrivacidad {
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+  }
+  .divPrivacidad h5{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .divPrivacidad p{
+    text-align: justify;
+  }
+}
+@media (min-width: 765px){
+.divPrivacidad {
+  padding-left: 10rem;
+  padding-top: 2rem;
+  padding-right: 10rem;
+}
+}
+=======
 
 
 
@@ -11441,6 +11465,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     text-align: justify !important;
   }
 }
+<<<<<<< HEAD
 
 /* Para pantallas mayores a 768px (típicamente tablets y computadoras) */
 @media only screen and (min-width: 768px) {
@@ -11459,3 +11484,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 
+=======
+>>>>>>> dd356e5010b35848ca6f49619c8b3ae09c614b0c
+>>>>>>> 48581ff6c114a6c5f369fe82523d441374a404a7
