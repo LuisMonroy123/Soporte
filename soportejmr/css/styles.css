@@ -11424,3 +11424,20 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding-right: 10rem;
 }
 }
+
+
+
+
+/* Para pantallas mayores a 768px (típicamente tablets y computadoras) */
+@media only screen and (min-width: 768px) {
+  .text-center {
+    text-align: center !important;
+  }
+}
+
+/* Para pantallas menores o iguales a 768px (típicamente celulares) */
+@media only screen and (max-width: 768px) {
+  .text-center {
+    text-align: justify !important;
+  }
+}
