@@ -11424,3 +11424,25 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding-right: 10rem;
 }
 }
+/*CSS de privacidad 2*/
+@media (min-width: 375px){
+  .divPrivacidad {
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+  }
+  .divPrivacidad h5{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .divPrivacidad p{
+    text-align: justify;
+  }
+}
+@media (min-width: 765px){
+.divPrivacidad {
+  padding-left: 10rem;
+  padding-top: 2rem;
+  padding-right: 10rem;
+}
+}
